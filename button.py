@@ -44,16 +44,3 @@ screen=pygame.display.set_mode([900,800])
 eqs=pygame.image.load("project/equations.png")
 eqs=pygame.transform.scale(eqs,(120,120))
 eqs=eqs.convert_alpha()
-
-#font = pygame.font.SysFont('arial',23) 
-#try change drawbtn to take in a surface to draw the btn.... 
-# impr:
-#def drawbtn(self,surf):
-    #pygame.draw.rect(surf,'grey',self.button,0,5)
-    #text=font.render(self.text,True,'black')
-    #surf.blit(text,(self.position[0]+(self.size[0]/3.5),self.position[1]+7))
-
-#def drawbtn(self): BEFORE
-    #pygame.draw.rect(screen,'grey',self.button,0,5)
-    #text=font.render(self.text,True,'black')
-    #screen.blit(text,(self.position[0]+(self.size[0]/3.5),self.position[1]+7))
