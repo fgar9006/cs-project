@@ -112,19 +112,3 @@ def scoring(username,points):#updates score in database
 		db.close()
 		return curscore #so the score can be updated in the gui
 	
-#testing scoring system -> it works
-#username='r'
-#points=5
-#newscore=scoring(username,points)
-#print(newscore)
-
-
-
-
-#retrieving from multiple tables
-#with sqlite3.connect("pmg.db") as db:
-	#c=db.cursor()
-#ret=("SELECT curscore FROM scores WHERE userID IN (SELECT userID FROM user WHERE username='test_user')")
-#c.execute(ret)
-#results=c.fetchall()
-#print(results)
