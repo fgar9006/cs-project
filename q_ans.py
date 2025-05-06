@@ -55,17 +55,3 @@ def gen_qa(mode):
                 check=False
     result=" ".join(map(str,q)) #this is to remove the commas and brackets in the question
     return result,ans
-
-
-#main
-#mode=input('Enter mode (s/u/v/t):')#this should already be chosen from the menu
-#qa=checknum(mode.lower())
-#print(qa[0])#prints the question
-#print(qa[1])#print answer just to check the if statement
-#uans=input('Enter answer:')
-#if uans==qa[1]:#answer checking
-#    print('Correct!')
-#    #should use a boolean to pass in calc_u() to make sure object passes through target
-#else:
-#    print('Incorrect. The answer is: ',qa[1])
-    #should use a boolean and calculate the difference in ans to pass into calc_u() for the projection
